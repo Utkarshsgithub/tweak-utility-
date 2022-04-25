@@ -31,3 +31,12 @@
 .navbar__link:hover:after {
   width: 100%;
 }
+
+@media only screen and (max-width: 1000px) {
+  .navbar__links {
+    display: none;
+  }
+  .navbar__hamburger {
+      display: inline-block;
+  }
+}

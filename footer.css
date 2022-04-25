@@ -25,6 +25,10 @@
   margin: 5px 0;
 }
 
+.footer__link:hover {
+  text-decoration: underline;
+}
+
 .footer__socials {
   display: flex;
 }
